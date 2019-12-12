@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> | <!-- Se busca por ruta-->
-      <router-link :to="{name:'Ejemplo'}">Ejemplo</router-link> <!-- Se busca por nombre de ruta-->
+      <router-link to="/">Home</router-link> | 
+      <!-- Se busca por ruta-->
+      <router-link :to="{name:'Ejemplo'}">Ejemplo</router-link> | 
+      <!-- Se busca por nombre de ruta-->
+      <router-link to="/ejemplazo">ejemplazo</router-link> 
+      <!-- Se busca por ruta-->
     </div>
     <router-view/>
   </div>
